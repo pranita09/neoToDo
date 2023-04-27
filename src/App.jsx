@@ -1,13 +1,6 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 
-import { Sidebar } from "./Layout";
-import Archive from "./screens/Archive";
-import Labels from "./screens/Labels";
-import Notes from "./screens/Notes";
-import Reminders from "./screens/Reminders";
-import Trash from "./screens/Trash";
-
 import { Archive, Labels, Notes, Reminders, Trash } from "./screens";
 
 function App() {
