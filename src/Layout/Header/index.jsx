@@ -1,17 +1,13 @@
 import React from "react";
 import './Header.scss';
-import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
-import ViewAgendaOutlinedIcon from "@mui/icons-material/ViewAgendaOutlined";
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
+
+import {MenuBookOutlined, SearchOutlined, GridViewOutlined, ViewAgendaOutlined, DarkModeOutlined, LightModeOutlined} from '@mui/icons-material'
 
 function Header() {
   return (
     <div className='navbar'>
       <div className='nav-left'>
-        <MenuOutlinedIcon className='hamburger'/>
+        <div className='hamburger'><MenuBookOutlined/></div>
         <img
           src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png"
           alt="logo"
@@ -20,13 +16,13 @@ function Header() {
         <span className='app-name'>Keep</span>
       </div>
       <div className='nav-mid'>
-        <SearchOutlinedIcon className='search-icon'/>
+        <SearchOutlined className='search-icon'/>
         <input placeholder="Search" />
       </div>
       <div className='nav-right'>
-        <GridViewOutlinedIcon className='nav-icon'/>
-        <ViewAgendaOutlinedIcon className='nav-icon' />
-        <DarkModeOutlinedIcon className='nav-icon' />
+        <div className='nav-icon'><GridViewOutlined /></div>
+        <div className='nav-icon' ><ViewAgendaOutlined /></div>
+        <div className='nav-icon'><DarkModeOutlined  /></div>
       </div>
     </div>
   );
