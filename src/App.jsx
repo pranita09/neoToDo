@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
     <Header />
-      Welcome to the ToDo App
       <Routes>
         <Route path="/archives" element={<Archive />}></Route>
         <Route path="/labels" element={<Labels />}></Route>
