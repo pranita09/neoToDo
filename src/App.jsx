@@ -2,11 +2,12 @@ import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 
 import { Archive, Labels, Notes, Reminders, Trash } from "./screens";
+import Header from "./Layout/Header";
 
 function App() {
   return (
     <div className="App">
-      Welcome to the ToDo App
+    <Header />
       <Routes>
         <Route path="/archives" element={<Archive />}></Route>
         <Route path="/labels" element={<Labels />}></Route>
