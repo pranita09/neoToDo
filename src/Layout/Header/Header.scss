@@ -1,72 +1,65 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 16px;
-    height: fit-content;
-    border-bottom: 1px solid rgb(206, 200, 200);
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  height: fit-content;
+  border-bottom: 1px solid rgb(206, 200, 200);
 }
-.nav-left{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.nav-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.hamburger{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    padding: 10px;
+// .hamburger{
+//     width: 40px;
+//     height: 40px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border-radius: 50%;
+//     padding: 10px;
+// }
+// .hamburger:hover{
+//     background-color: lightgray;
+// }
+.app-name {
+  font-size: 25px;
 }
-.hamburger:hover{
-    background-color: lightgray;
+.nav-mid {
+  width: 45%;
+  display: flex;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: rgb(238, 236, 236);
 }
-.app-name{
-    font-size: 25px;
-}
-.nav-mid{
-    width: 45%;
-    display: flex;
-    border: none;
-    border-radius: 8px;
-    padding: 8px;
-    background-color: rgb(238, 236, 236);
-    
-}
-.search-icon{
+.search-icon {
   margin: 4px 4px 0 4px;
 }
-.nav-mid input{
-    width: 100%;
-    padding: 4px;
-    margin: 0 0 0 5px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    background-color: rgb(238, 236, 236);
+.nav-mid input {
+  width: 100%;
+  padding: 4px;
+  margin: 0 0 0 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: rgb(238, 236, 236);
 }
-.nav-right{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+.nav-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
 }
-.nav-icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav-icon:hover{
-    background-color: lightgray;
-}
-svg{
-    color: #5f6368;
-}
-svg:hover{
-    color: black;
-}
+// .nav-icon{
+//     width: 40px;
+//     height: 40px;
+//     border-radius: 50%;
+//     padding: 10px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .nav-icon:hover{
+//     background-color: lightgray;
+// }
