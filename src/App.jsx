@@ -1,13 +1,14 @@
-import "./App.scss";
-import { Routes, Route } from "react-router-dom";
+import './App.scss'
+import { Routes, Route } from 'react-router-dom'
 
-import { Archive, Labels, Notes, Reminders, Trash } from "./screens";
-import Header from "./Layout/Header";
+import { Archive, Labels, Notes, Reminders, Trash } from './screens'
+import Header from './Layout/Header'
+import { Modal } from './components/index'
 
 function App() {
   return (
     <div className="App">
-    <Header />
+      <Header />
       <Routes>
         <Route path="/archives" element={<Archive />}></Route>
         <Route path="/labels" element={<Labels />}></Route>
@@ -15,8 +16,9 @@ function App() {
         <Route path="/reminders" element={<Reminders />}></Route>
         <Route path="/trash" element={<Trash />}></Route>
       </Routes>
+      {/* <Modal>Hello</Modal> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,10 @@
+dialog {
+  margin: 45vh auto;
+  border: 1px solid black;
+  padding: 1em;
+}
+dialog::backdrop {
+  border: none;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
+}
