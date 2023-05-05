@@ -1,0 +1,17 @@
+.icon-button {
+  border: none;
+  outline: none;
+  background: none;
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  svg {
+    color: #5f6368;
+  }
+  &:hover {
+    background-color: lightgray;
+    svg {
+      color: black;
+    }
+  }
+}
